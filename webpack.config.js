@@ -8,6 +8,7 @@ const config = {
     ]
   },
   entry:['babel-polyfill','./lib/renderers/dom.js'],
+
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
